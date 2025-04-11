@@ -17,10 +17,10 @@ int main () {
     scanf(" %c", &estado1);
 
     printf("Digite o código do Estado: \n");
-    scanf(" %s", &codigo1);
+    scanf(" %s", codigo1);
 
     printf("Digite o nome da cidade: \n");
-    scanf(" %s", &cidade1);
+    scanf(" %s", cidade1);
 
     printf("Digite o nº da população da cidade: \n");
     scanf(" %d", &populacao1);
@@ -40,10 +40,10 @@ int main () {
     scanf(" %c", &estado2);
 
     printf("Digite o código do Estado: \n");
-    scanf(" %s", &codigo2);
+    scanf(" %s", codigo2);
 
     printf("Digite o nome da cidade: \n");
-    scanf(" %s", &cidade2);
+    scanf(" %s", cidade2);
 
     printf("Digite o nº da população da cidade: \n");
     scanf(" %d", &populacao2);
@@ -57,11 +57,11 @@ int main () {
     printf("Digite o nº de pontos turísticos da cidade: \n");
     scanf(" %d", &pontoturistico2);
 
-    //declarar variável densidade; usar casting para variável int; dividir populacao sobre area; 
+    //declarar variável densidade; usar operador de atribuição; usar casting para variável int; usar operador aritmetico de divisao; 
     densidade1 = (float) populacao1 / area1;
     densidade2 = (float) populacao2 / area2;
 
-    //declarar variável pib per capita; usar casting para variável int; dividir pib sobre populacao; 
+    //declarar variável densidade; usar operador de atribuição; usar casting para variável int; usar operador aritmetico de divisao;
     pibpc1 = pib1 / (float) populacao1;
     pibpc2 = pib2 / (float) populacao2;
 
